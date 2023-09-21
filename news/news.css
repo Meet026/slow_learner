@@ -16,6 +16,8 @@
 body {
     font-family: "Poppins", sans-serif;
     color: var(--primary-text-color);
+    background: linear-gradient(135deg, #171822, hsl(204, 16%, 24%));
+
     
 }
 
@@ -45,7 +47,7 @@ ul {
 }
 
 nav {
-    background-color: #222;
+    background-color:#2a2b38;
     opacity: 1;
     box-shadow: 0 0 4px #1b1d1f;
     color: white;
@@ -134,7 +136,7 @@ main {
 }
 
 .card:hover {
-    box-shadow: 1px 1px 8px #163147;
+    box-shadow: 5px 5px 15px rgba(214, 68, 192, 0.728);
     background-color: #f9fdff;
     transform: translateY(-2px);
 }

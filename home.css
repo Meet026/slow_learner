@@ -10,6 +10,10 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #222;
   padding-bottom: 50px;
+  background-image: url(https://t3.ftcdn.net/jpg/05/40/04/46/360_F_540044645_euvM4jng8cjqkpwT6NkjyfHePtREP3JA.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
 }
 
 .container {
@@ -19,7 +23,7 @@ body {
 }
 
 .container span{
-  color: #c0392b;
+  color:#c0392b  ;
 }
 
 .logo a{
@@ -28,7 +32,7 @@ body {
 
 .nav {
   position: fixed;
-  background-color: #222;
+  background-color:#2a2b38;
   top: 0;
   left: 0;
   right: 0;
@@ -72,14 +76,15 @@ body {
 
 .nav a.current,
 .nav a:hover {
-  color: #c0392b;
+  color: #c0392b ;
 }
 
 .hero {
-  background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom center;
+  
+  
+  /*background-color:#2a2b38; */
+ 
+ 
   height: 100vh;
   color: #fff;
   display: flex;
@@ -105,27 +110,33 @@ body {
 
 .width{
   width: 65%;
-    
 }
 
-.speech{
-  width: 300px;
-  height: 200px;
-}
+/*.speech{
+  width: 30%;
+  /*justify-self: flex-end;*/
+ /* width: 300px;
+  height: 200px;*/
 
 .margin{
   margin-left: 1rem;
 }
+ #speech{
+  width: 30%;
+  right: 70%;
 
+}
 
 
 .container h1, p{
   animation: slideInLeft 1s ease-in-out;
+  /*background-color: #2a2b38;*/
 }
 
 .hero h1 {
   font-size: 46px;
   margin: -20px 0 20px;
+  width: fit-content;
  
 }
 
@@ -146,14 +157,6 @@ body {
   letter-spacing: 1.2px;
 }
 
-.video {
-  float: right; /* Float the video to the right */
-  width: 250px; /* Set the width to 50% of the container (adjust as needed) */
-  max-width: 400px; /* Set a maximum width for the video (adjust as needed) */
-  height: auto; /* Let the height adjust proportionally to the width */
-  margin-left: 20px; /* Add some margin to separate it from the text (adjust as needed) */
-}
-
 @keyframes slideInLeft {
   from {
       transform: translateX(-100%);
@@ -164,6 +167,3 @@ body {
       opacity: 1;
   }
 }
-
-
-/* test page */
