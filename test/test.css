@@ -18,7 +18,14 @@ section.card:nth-of-type(4) .text-content a,
 section.card:nth-of-type(6) .text-content a{
     align-self: flex-start;
 }
- /* body {
+
+/* Add this CSS code for hover effect on cards */
+section.card:hover {
+    box-shadow: 5px 5px 15px rgba(214, 68, 192, 0.728);
+    transition: 0.3s ease-in-out;
+}
+
+ /*body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
@@ -27,7 +34,7 @@ section.card:nth-of-type(6) .text-content a{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-} */
+}*/
 
 .info-list {
     max-width: 2000px;
@@ -43,6 +50,8 @@ section.card:nth-of-type(6) .text-content a{
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
+    color: white;
+  text-shadow: 2px 2px 4px rgba(214, 68, 192, 0.728);
 }
 
 .info-point {
@@ -165,15 +174,16 @@ article {
     min-width: calc(640px + 248px);
 }
 
- body{
+body {
     margin: 0;
     padding: 96px;
     font-size: 21px;
-    background-color: #1f2029;
-    color: #000;
+	/*background-color: #171822;/*
+    /*color: #000;*/
     font-family: "gelica", sans-serif;
     font-weight: 400;
-    font-style: normal; 
+    font-style: normal;
+    background: linear-gradient(135deg, #171822, hsl(204, 16%, 24%));
 }
 
 @media all and (max-width: 1100px) {
